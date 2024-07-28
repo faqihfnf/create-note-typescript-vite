@@ -69,6 +69,7 @@
 
 h3 {
   font-size: 1.5rem;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -81,9 +82,30 @@ h3 {
   border: none;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 
 .delete-btn:hover {
   background-color: darkred;
+}
+
+.update-btn {
+  background-color: rgb(40, 110, 241);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  /* align-self: flex-end; */
+}
+
+.update-btn:hover {
+  background-color: darkblue;
+}
+
+.box-btn {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: flex-end;
 }
