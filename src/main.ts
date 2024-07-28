@@ -43,6 +43,8 @@ async function app() {
     newNote.classList.add("note");
     const noteTitle = document.createElement("h3");
     const noteContent = document.createElement("textarea");
+    noteContent.classList.add("note-content");
+    noteContent.setAttribute("rows", "5");
     const boxBtn = document.createElement("div");
     boxBtn.classList.add("box-btn");
     const updateBtn = document.createElement("button");
